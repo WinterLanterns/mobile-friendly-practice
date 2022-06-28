@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  bottom: 370px;
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.cls-1 {
+  fill: url(#gradient);
+}
+
+.section-info {
+  margin: 0 250px;
+}
+
+.section-left,
+.section-right {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 15px;
+  color: rgb(63, 108, 119);
+}
+
+.section-left {
+  text-align: left;
+}
+
+.section-right {
+  text-align: right;
+}
