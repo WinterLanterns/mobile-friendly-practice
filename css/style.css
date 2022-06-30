@@ -19,9 +19,9 @@ p {
   text-transform: none;
 }
 
-.cls-1 {
+/* .cls-1 {
   fill: url(#gradient);
-}
+} */
 
 .section-info {
   margin: 0 255px;
@@ -58,14 +58,20 @@ footer {
   top: 65px;
 }
 
-@media (max-width: 480px;) {
-  header {
-    background-color: red;
+@media (min-width: 480px) {
+  .cls-1 {
+    fill: red;
   }
 }
 
-@media (max-width: 768px;) {
+@media (min-width: 768px) {
+  .cls-1 {
+    fill: green;
+  }
 }
 
-@media (max-width: 1044px;) {
+@media (min-width: 1044px) {
+  .cls-1 {
+    fill: blue;
+  }
 }
